@@ -11,14 +11,14 @@ export const NavBar = () => {
 <>
 <Navbar bg="dark" variant="dark">
   <Container>
-    <Navbar.Brand> <img
+    <Navbar> <Link to="/" > <img
             alt='...'
             className='logo'
-            src={logo} /> <Link to="/" className="nav-link letraNav" ></Link> </Navbar.Brand>
-    <Nav className="me-auto">
-        <Nav.Link >Home <Link to="/" className="nav-link letraNav" ></Link>  </Nav.Link>
-        <Nav.Link >Ideas<Link to="/Ideas/" className="nav-link letraNav" ></Link>  </Nav.Link>
-        <Nav.Link > Formulario <Link to="/Formulario/" className="nav-link letraNav" ></Link></Nav.Link>
+            src={logo} /> </Link> </Navbar>
+        <Nav className="me-auto">
+        <Navbar><Link to="/" className="nav-link letraNav" >Home</Link>  </Navbar>
+        <Navbar ><Link to="/Ideas/" className="nav-link letraNav" >Ideas</Link>  </Navbar>
+        <Navbar>  <Link to="/Formulario/" className="nav-link letraNav" >Formulario</Link></Navbar>
     </Nav>
   </Container>
 </Navbar>
