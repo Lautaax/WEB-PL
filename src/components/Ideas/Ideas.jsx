@@ -1,6 +1,6 @@
 import React from 'react';
-import "./Jobs.css"
-export const Jobs = () => {
+import "./Ideas.css"
+export const Ideas = () => {
     return (
 <div className='fondo text-white' >
 <div className="row">
