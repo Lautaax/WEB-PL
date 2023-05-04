@@ -1,6 +1,6 @@
 import React from 'react'
 import QrAguilera from "../Images/Qraguilerasvg.svg"
-import "./Contact.css"
+import "./Formulario.css"
 
 
 export const Contact = () => {

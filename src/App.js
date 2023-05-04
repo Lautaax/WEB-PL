@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Presentacion } from "./components/Presentacion/Presentacion";
 import { Footer } from "./components/Footer/Footer";
 import { Ideas } from "./components/Ideas/Ideas";
-import { Contact } from "./components/Contact/Contact";
+import { Contact } from "./components/Contact/Formulario";
 import { AboutMe } from "./components/AboutMe/AboutMe";
 
 const TITLE = 'Frente Liberal 25 de Mayo Bahia Blanca';
