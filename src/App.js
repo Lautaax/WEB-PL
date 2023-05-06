@@ -2,11 +2,11 @@ import "./App.css";
 import React from "react";
 import {NavBar} from "./components/NavBar/NavBar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Presentacion } from "./components/Presentacion/Presentacion";
 import { Footer } from "./components/Footer/Footer";
 import { Ideas } from "./components/Ideas/Ideas";
 import { Formulario } from "./components/Formulario/Formulario";
 import { AboutMe } from "./components/AboutMe/AboutMe";
+import { Presentacion } from "./components/Presentacion/Presentacion";
 
 const TITLE = 'Frente Liberal 25 de Mayo Bahia Blanca';
 

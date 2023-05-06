@@ -1,7 +1,9 @@
 .logo{
-  width: 70%;
+  width: 100%;
   }
 
-.letraNav{
-  font-size: 24px;
+.letras{
+  font-size:xx-large;
+  display: flex;
+justify-content: flex-start;
 }
