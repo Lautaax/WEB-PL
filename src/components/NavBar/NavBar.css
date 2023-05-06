@@ -3,7 +3,7 @@
   }
 
 .letras{
-  font-size:xx-large;
+  font-size:large;
   display: flex;
 justify-content: flex-start;
 }
