@@ -31,8 +31,8 @@ export const Footer = () => {
         </section>
       </div>
       <div className="text-center">
-        © 2020 Copyright:
-        <a className="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        © 2023 Copyright:
+        <a className="text-white" href="https://soylautaa.vercel.app/">SoyLautaa</a>
       </div>
 </div>
 </footer>
