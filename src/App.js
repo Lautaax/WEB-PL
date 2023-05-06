@@ -11,19 +11,19 @@ const TITLE = 'Frente Liberal 25 de Mayo Bahia Blanca';
 
 function App() {
   return (
-    <div className="fondo">
+    <div className="global" >
       <title>{ TITLE }</title>
-      <BrowserRouter>
+      <BrowserRouter >
         <NavBar />
         <Routes>
           <Route
-            path="/"
+            path="/" 
             element={<Presentacion greeting="Frente Liberal 25 de Mayo Bahia Blanca" />}/>
           <Route path="/Ideas" element={<Ideas />} />
           <Route path="/Formulario" element={<Formulario />} />
           <Route path="/AboutMe" element={<AboutMe />} />
         </Routes>
-        <Footer />
+        <Footer/>
       </BrowserRouter>
     </div>
   );

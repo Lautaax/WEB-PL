@@ -1,14 +1,15 @@
-.presentFondoo{height: 65.7vh;}
-
-.colorletra{
-    color: #27fd06;
-    font-weight:bolder ;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.datos {
+    justify-content: center;
+    align-items:center;
+    padding: 5%;
 }
 
+.logojm{
+    width: 100%;
+}
 
-@media only screen and (max-width: 800px) {
-    .presentFondoo {
-        height: 60vh;
+@media (min-width: 1200px) { 
+    .datos {
+        height: 100% ;
     }
-}
+ }

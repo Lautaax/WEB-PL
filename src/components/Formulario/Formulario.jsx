@@ -5,7 +5,7 @@ import "./Formulario.css"
 
 export const Formulario = () => {
   return (
-    <div className='fotofondo'  >
+    <div classNamee='fotofondo'  >
       <div className=' d-flex justify-content-center align-items-center h-100'>
         <div className='image ' >
           <img

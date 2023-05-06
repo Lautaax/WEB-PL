@@ -1,11 +1,3 @@
-
-  .fondo{
-    height: auto;
-  }
-  
-@media only screen and (max-width: 800px) {
-  .jobsfondoo {
-      height: auto;
-      
-  }
+.fondoo{
+  height:65vh;
 }
