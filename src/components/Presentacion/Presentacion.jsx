@@ -55,7 +55,7 @@ export const Presentacion = () => {
                     productividad. En su lugar, promovería políticas que incentiven la
                     creación de empleo y la iniciativa privada. En cuanto a la deuda
                     pública, Milei propone renegociarla y reestructurarla de manera
-                    sostenible para evitar un default que haga colapsar la economía.</p>
+                    sostenible para evitar un default que haga colapsar la economía!.</p>
                     
                 </div>
                 <div className="col-md-6 separacion">
